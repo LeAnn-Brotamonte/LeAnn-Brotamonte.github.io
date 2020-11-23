@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(245, 245, 245);
+  }
+  
+body {
+    background-color: rgb(245, 245, 245);
+}  
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header / Navigation Bar **/
+header {
+    background: #550c72;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(69, 69, 70) 5px solid;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+/* Navigation Link Formatting **/
+header li {
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a {
+    color:  rgb(181, 140, 204);
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(181, 140, 204);
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #550c72;
+    text-align: center;
+}
+
+.welcome {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome h1{
+    font-size: 70px;
+    color: rgb(245, 245, 245);
+}
+
+img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.launchButton {
+    background-color: #550c72; 
+    border: none;
+    color: rgb(245, 245, 245);
+    margin-top: 15px;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.helpButton {
+    background-color: #550c72; 
+    border: none;
+    color: rgb(245, 245, 245);
+    margin-top: 15px;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.helpButton:hover {background-color:#cf7df0}
+.launchButton:hover {background-color: #cf7df0}
+
+aside#sidebar {
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+}
+
+article#mainCol {
+    float: left;
+    width: 65%;
+    margin-top: 20px;
+}
+
+.dark {
+    padding: 15px;
+    background: #550c72;
+    color: rgb(245, 245, 245);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.srcLinks {
+    list-style-type: none;
+}
+   
+.painter{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+  
+}
+
+#paint{
+    border: 5px solid #000000;
+}
+
+.btns button {
+    margin: auto;
+    color: #000000;
+}

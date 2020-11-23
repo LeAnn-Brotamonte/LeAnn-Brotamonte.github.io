@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POV Interface</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!--Put in container to keep elements in center of header-->
+        <div class="container">
+            <h1>Design POV Display</h1>
+            <!--Navigation Bar-->
+            <nav>
+                <ul class="navLinks">
+                    <li><a href="home">Home</a></li>
+                    <li class = "current"><a href="launch">Drawing App</a></li>
+                    <li><a href="resources">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="painter">
+        <canvas width="700px" height="400px" id="paint"></canvas>
+        <div class="btns">
+            <button onclick="startBtn()">Start</button>
+            <button onclick="clearInterval(myVar)">Stop</button>
+            <button onclick="BlackPen()">Draw</button>
+            <button onclick="Erase()">Erase</button>
+            <button onclick="ClearPaint()">Clear</button>
+        </div>
+    </div>
+
+    <script src="jsFunctions.js"></script>
+</body>
+</html>
